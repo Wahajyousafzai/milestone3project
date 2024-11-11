@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { getFashionImages } from '@/lib/unsplash';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from 'next/image'; 
 
 const FEATURED_CATEGORIES = [
   { name: 'Formal Wear', query: 'mens suit formal' },
