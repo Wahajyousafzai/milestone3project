@@ -12,10 +12,10 @@ export interface CartItem extends Product {
 
 export interface CartContextType {
   items: CartItem[];
+  total: number;
+  itemCount: number;
   addItem: (product: Product) => void;
   removeItem: (productId: string) => void;
   updateQuantity: (productId: string, quantity: number) => void;
   clearCart: () => void;
-  total: number;
-  itemCount: number;
 } 
